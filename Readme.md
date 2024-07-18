@@ -41,24 +41,31 @@ As peças são passadas para a classe Puzzle, que irá validar as peças e monta
 
 ##### Exemplo de uso com o construtor:
 
+```javascript
 const puzzle = new Puzzle(pieces);
 const word = puzzle.getWord();
 console.log(word); // Saída: "ATA"
+```
 
 ##### Exemplo de uso com o método setPieces:
 
+```javascript
 const puzzle = new Puzzle();
 puzzle.setPieces(pieces);
 const word = puzzle.getWord();
 console.log(word); // Saída: "ATA"
+```
 
 ### Como Executar
 
 ##### Instalação:
 
-Certifique-se de ter o Node.js instalado em sua máquina.
-Clone o repositório e navegue até o diretório do projeto.
+1. Certifique-se de ter o Node.js instalado em sua máquina.
 
-Execução:
+2. Clone o repositório e navegue até o diretório do projeto.
 
+##### Execução:
+
+```javascript
 npm start
+```
